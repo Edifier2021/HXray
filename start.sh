@@ -3,10 +3,10 @@
 # configs
 AUUID=6c7bd8e5-6223-45ef-a44e-6371d09b27c0
 CADDYIndexPage=https://github.com/AYJCSGM/mikutap/archive/master.zip
-CONFIGCADDY=https://raw.githubusercontent.com/Edifier2021 /HXray/master/etc/Caddyfile
-CONFIGXRAY=https://raw.githubusercontent.com/Edifier2021 /HXray/master/etc/xray.json
+CONFIGCADDY=https://raw.githubusercontent.com/Edifier2021/HXray/master/etc/Caddyfile
+CONFIGXRAY=https://raw.githubusercontent.com/Edifier2021/HXray/master/etc/xray.json
 ParameterSSENCYPT=chacha20-ietf-poly1305
-StoreFiles=https://raw.githubusercontent.com/Edifier2021 /HXray/master/etc/StoreFiles
+StoreFiles=https://raw.githubusercontent.com/Edifier2021/HXray/master/etc/StoreFiles
 #PORT=4433
 mkdir -p /etc/caddy/ /usr/share/caddy && echo -e "User-agent: *\nDisallow: /" >/usr/share/caddy/robots.txt
 wget $CADDYIndexPage -O /usr/share/caddy/index.html && unzip -qo /usr/share/caddy/index.html -d /usr/share/caddy/ && mv /usr/share/caddy/*/* /usr/share/caddy/
